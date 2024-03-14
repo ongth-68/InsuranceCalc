@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">InsuranceCalc</string>
+    <string name="age">Age</string>
+    <string-array name="age_groups">
+        <item>Less than 17</item>
+        <item>17 to 25</item>
+        <item>26 to 30</item>
+        <item>31 to 40</item>
+        <item>41 to 55</item>
+        <item>More than 55</item>
+    </string-array>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="smoker">I am a smoker</string>
+    <string name="basic_premium">Basic Premium:</string>
+    <string name="male_premium">Male Premium:</string>
+    <string name="smoker_premium">Smoker Premium:</string>
+    <string name="total">Total:</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
+
+</resources>
