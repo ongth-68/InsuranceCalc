@@ -23,16 +23,16 @@ class MainActivity : AppCompatActivity() {
         val symbol = numberFormat.currency?.symbol
 
         binding.buttonCalculate.setOnClickListener {
-            var basic = premium[binding.spinAge.selectedItemPosition]
+            val basic = premium[binding.spinAge.selectedItemPosition]
 
-            var male =
+            val male =
                 when(binding.rgGender.checkedRadioButtonId) {
                     R.id.rbMale->maleExtra[binding.spinAge.selectedItemPosition]
                     R.id.rbFemale->0
                     else->0
                 }
 
-            var smoker = if (binding.cbSmoker.isChecked) smokerExtra[binding.spinAge.selectedItemPosition] else 0
+            val smoker = if (binding.cbSmoker.isChecked) smokerExtra[binding.spinAge.selectedItemPosition] else 0
 
             binding.tvBasicPrice.text = String.format("%s %d", symbol, basic)
             binding.tvMalePrice.text = String.format("%s %d", symbol, male)
