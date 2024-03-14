@@ -43,7 +43,6 @@ class MainActivity : AppCompatActivity() {
         binding.buttonReset.setOnClickListener {
             binding.spinAge.setSelection(0)
             binding.rgGender.check(R.id.rbMale)
-            // R.id.rbMale == binding.rbMale.id
             binding.cbSmoker.isChecked = false
 
             binding.tvBasicPrice.text = ""
